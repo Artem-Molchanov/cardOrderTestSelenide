@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$;
 public class DebitCardApplicationTest {
     @Test
 
-    void shouldTest() throws InterruptedException {
+    void shouldTest() {
         open ("http://localhost:9999");
 
         SelenideElement form = $("[id=root]");
@@ -21,4 +21,5 @@ public class DebitCardApplicationTest {
         form.$("[data-test-id=order-success]").shouldHave(Condition.exactText("  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
 
     }
+
 }
