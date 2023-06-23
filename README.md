@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/bk2i11b0xqf11amg?svg=true)](https://ci.appveyor.com/project/Artem-Molchanov/cardordertestselenide)
