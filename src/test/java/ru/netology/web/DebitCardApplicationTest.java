@@ -20,8 +20,5 @@ public class DebitCardApplicationTest {
         form.$("[role=button]").click();
         form.$("[data-test-id=order-success]").shouldHave(Condition.exactText("  Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время."));
 
-        Thread.sleep(5000);
-
-
     }
 }
